@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Создание шаблона</title>
+        <link rel="icon" href="images/icon.png" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta name="description" content="Молдавская традиционная одежда" /> 
+        <meta name="keywords" content="Традиции, одежда, ия" /> 
+        <meta name="author" content="NP" />
+        <script src="https://kit.fontawesome.com/c11ba349a7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--
+        ссылка на цветовые градиенты
+            https://www.w3schools.com/css/css3_gradients.asp
+        ссылка на цветовые фильтры
+            https://www.w3schools.com/cssref/css3_pr_filter.php
+        -->
+        <nav>
+            <a href="#"><img src="images/logo.jpg" alt="Logo" /></a>
+            <a href="#about" class="link_nav">О традициях</a>
+            <a href="#gallery" class="link_nav">Галлерея</a>
+            <a href="tel:+37388997766" class="link_nav phone"><i class="fa-solid fa-phone-volume"></i></a>
+        </nav>
+        <section>
+            <div class="back">
+                <div class="wrapper">
+                    <div class="wrapper_content">
+                        <p>Свяжитесь с нами для того что бы узнать побольше о молдавской традиционной одежде</p>
+                        <a href="#sveazi">Напишите нам</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text" id="about">
+                <h2>Молдавские традиции. ИЯ</h2>
+                <p><span class="my_strong">Молдавская ИЯ</span> – это традиционная блузка свободного кроя с длинными рукавами, выполненная из легкой ткани, например хлопка или льна. Его могут носить как женщины, так и мужчины, но дизайн и украшения могут различаться в зависимости от пола. Молдавская ИЯ известна своими замысловатыми узорами и вышивками. Они изготовлены вручную и могут представлять собой цветочные, геометрические или зооморфные мотивы. Каждый узор или вышивка могут иметь символическое значение и быть специфичными для определенного региона или этнографической зоны Республики Молдова.</p>
+            </div>
+            <hr />
+            <div id="gallery">
+                <h2>Галлерея представления Ий</h2>
+                <div class="gallery col-11">
+                    <div class="card">
+                        <img src="images/image1.jpg" alt="Цвета ии" />
+                        <h4>Цвета ии</h4>
+                        <p>Цвета, используемые в молдавской ии, часто яркие и насыщенные. Красный, зеленый, синий и желтый — традиционные цвета, обычно встречающиеся в дизайнах вышивки.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image2.jpg" alt="Ношение ии" />
+                        <h4>Ношение ии</h4>
+                        <p>Молдавскую ию носят в различных особых случаях и традиционных мероприятиях, таких как свадьбы, народные гуляния или религиозные праздники. Раньше её носили каждый день.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image3.jpg" alt="Техника шитья" />
+                        <h4>Техника шитья</h4>
+                        <p>При изготовлении традиционной ии используются несколько техник шитья, и точное их количество может варьироваться в зависимости от региона, стиля и традиции.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image4.jpg" alt="Расширение" />
+                        <h4>Расширение</h4>
+                        <p>Иа, традиционная блузка, также известная как «ие», встречается в ряде стран Восточной и Центральной Европы, а также в некоторых регионах Азии и Африки под разными названиями и формами.</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div id="contacts">
+                <h2>Как нас найти?</h2>
+                <div class="contacts">
+                    <div class="form">
+                        <h3 id="sveazi">Напишите нам</h3>
+                        <form>
+                            <div class="group">
+                                <div class="dva">
+                                    <label for="el1">Электронный адресс</label>
+                                    <input id="el1" type="email" />
+                                </div>
+                                <div class="dva">
+                                    <label for="el2">Телефон</label>
+                                    <input id="el2" type="text" />
+                                </div>
+                            </div>
+                            <div class="group">
+                                <div class="odin">
+                                    <label for="el3">Домашний адресс</label>
+                                    <input type="text" id="el3" />
+                                </div>
+                            </div>
+                            <div class="group">
+                                <div class="tri">
+                                    <label for="el4">Населенный пункт</label>
+                                    <input id="el4" type="text" />
+                                </div>
+                                <div class="tri">
+                                    <label for="el5">Район</label>
+                                    <select id="el5">
+                                        <option>Кишинев</option>
+                                        <option>Яловены</option>
+                                        <option>Оргеев</option>
+                                        <option>Единец</option>
+                                        <option>Комрат</option>
+                                        <option>Кагул</option>
+                                    </select>
+                                </div>
+                                <div class="tri">
+                                    <label for="el6">Почтовый индекс</label>
+                                    <input id="el6" type="text" />
+                                </div>
+                            </div>
+                            <div class="group">
+                                <input type="submit" value="Передать данные" />
+                            </div>
+                        </form>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.04359292134!2d28.843339475657814!3d47.019749328318966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97db97127ed1b%3A0x4e90039f099ad358!2sHaine%20na%C5%A3ionale!5e0!3m2!1sen!2s!4v1723015487088!5m2!1sen!2s" title="Карта магазина"></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </section>
+        <footer>
+            <div class="container">
+                <div>
+                    <p>2024 &copy; NP</p>
+                </div>
+                <div>
+                    <a href=""><img src="images/icon_facebook.png" alt="Logo Facebook" /></a>
+                    <a href="https://www.instagram.com/natalia_plesca_dragancea/" title="ssilka" target="_blank"><img src="images/icon_instagram.png" alt="Logo Instagram" /></a>
+                    <a href=""><img src="images/icon_twitter.png" alt="Logo Twitter" /></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
